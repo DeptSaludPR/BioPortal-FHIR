@@ -7,8 +7,8 @@ BioPortal currently collects the following fields for the test results:
 | Order ID | string |
 | Patient | [Patient](#Patient) |
 | Laboratory | [Laboratory](#Laboratory) |
-| Ordered By | Entity|
-| Processed By | Entity|
+| Ordered By | [Entity](#Entity)|
+| Processed By | [Entity](#Entity)|
 
 ### Patient
 <details>
@@ -40,7 +40,7 @@ BioPortal currently collects the following fields for the test results:
 | Marital Status | string |
 | Primary Language | string |
 | Deceased | boolean |
-| Primary Practitioner| Entity|
+| Primary Practitioner| [Entity](#Entity)|
 </details>
 
 ### Laboratory
