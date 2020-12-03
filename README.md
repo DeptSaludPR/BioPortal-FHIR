@@ -174,3 +174,18 @@ Mother’s Maiden Name
   "valueString": "Miranda"
 }
 ```
+
+### Send Message
+
+#### Endpoint
+
+| Purpose | VERB | URL |
+|--|--|--|
+| Send Covid-19 Test Results | POST | https://biolink.salud.gov.pr/fhir/r4|
+
+#### Authentication
+
+Use the following HTTP headers
+| Header | Value |
+|--|--|
+| Authorization | ApiKey **KEY**|
